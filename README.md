@@ -1,4 +1,4 @@
-# vuepress-doc
+# Webkit Guide
 
 Documentation for Edgeryders Webkit.
 
