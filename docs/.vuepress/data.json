@@ -1,0 +1,236 @@
+{
+  "baseUrl": "https://edgeryders.eu",
+  "template": "event",
+  "event": {
+    "date": "TBC",
+    "location": "Online"
+  },
+  "style": {
+    "fonts": ["Playfair+Display:400,500,700,800,900", "Noto+Serif+SC:200,500"],
+    "title": {
+      "width": ["90%", "75%"],
+      "padding": ["0 0 10px"],
+      "align": ["left"],
+      "font": ["Playfair Display"],
+      "weight": ["400"],
+      "size": ["text-2xl", "text-3xl"]
+    },
+    "subtitle": {
+      "font": ["Playfair Display"],
+      "weight": ["400", "400"],
+      "size": ["text-2xl", "text-3xl"]
+    },
+    "paragraph": {
+      "font": ["Playfair Display"],
+      "weight": ["200"]
+    },
+    "wrapper": {
+      "width": ["90%", "75%"],
+      "padding": ["15px 15px 0", "10px 0 0"]
+    },
+    "toggle": {
+      "background": ["#05B8C1"]
+    },
+    "action": {
+      "color": ["white"],
+      "font": ["Helvetica"]
+    },
+    "highlight": {
+      "color": ["white"],
+      "background": ["RGBA(46, 164, 138, 1.00)"]
+    }
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "subtitle": "Resilient Livelihoods",
+      "tag": "covid19",
+      "text": {
+        "content": "Register your interest now for the Resilient Livelihoods Summit, hosted by Edgeryders.",
+        "align": "left",
+        "buttons": [
+          {
+            "text": "Register Interest",
+            "url": "#join"
+          },
+          {
+            "text": "Submit Proposal",
+            "url": "#join"
+          }
+        ]
+      },
+      "style": {
+          "title": {
+            "weight": ["500"],
+            "width": ["100%"],
+            "class": ["text-3xl"],
+            "padding": ["0", "0"]
+          },
+          "wrapper": {
+            "width": ["90%", "75%"],
+            "padding": ["0"]
+          },
+          "subtitle": {
+            "class": ["text-3xl", "font-light"]
+          },
+          "paragraph": {
+            "font": ["Playfair Display"],
+            "weight": ["400"]
+          },
+          "container": {
+            "padding": ["10px 0 20px", "50px 0"]
+          },
+          "action": {
+            "color": ["black"],
+            "background": ["white"]
+          },
+          "tag": {
+            "color": ["white"],
+            "background": ["RGBA(46, 164, 138, 1.00)"]
+          },
+          "highlight": {
+            "color": ["RGBA(46, 164, 138, 1.00)"]
+          },
+          "background": {
+            "url": ["/img/topography.svg"],
+            "color": [""],
+            "size": ["400px"],
+            "repeat": ["repeat-x"]
+        }
+      }
+    },
+    {
+      "type": "custom",
+      "id": "about",
+      "style": {
+        "container": {
+          "padding": ["0 0 60px"]
+        },
+        "wrapper": {
+          "padding": ["0px 15px 0", "10px 0 0"]
+        }
+      },
+      "text": {
+        "content": [
+          "<div class='er_lead md:er_lead-md'><h3>About the Summit</h3><p>When a crisis hits, we look for systems of support & collaboration that go beyond the status quo.</p><p>At this online summit we gather together people who deploy policies, infrastructures, tools, business activity and community projects that can form an essential support system for sustaining livelihoods in times of crisis.</p></div>",
+          "<div class='er_list md:er_list-md'><h4>This event is designed to help participants…</h4><ul><li>💬 Find the right conversations</li> <li>📝 Grow their professional network</li> <li>🛠 Build new income opportunities</li> <li>📖 Learn from others’ past experiences</li> <li>🧭 Explore new models for securing resilient livelihoods</li></ul></div>"
+        ],
+        "layout": "horizontal"
+      }
+    },
+    {
+      "type": "custom",
+      "id": "strategy",
+      "title": "What will happen..",
+      "style": {
+        "container": {
+          "padding": ["30px 0 20px"],
+          "background": ["#fafafa"]
+        },
+        "title": {
+          "size": ["text-3xl"],
+          "font": ["Playfair Display"],
+          "weight": ["700"]
+        },
+        "wrapper": {
+          "padding": ["0px 15px 0", "10px 0 0"]
+        }
+      },
+      "text": {
+        "content": [
+          "<div class='plain_list'><h4 class='px-1'>During the online summit</h4><ul><li>A series of listening sessions around key issues.</li> <li>Webinars to present and discuss case studies.</li> <li>Online co-creation workshops to design and plan joint actions.</li> <li>An online hackathon to accelerate existing initiatives through technical support</li></ul></div>",
+          "<div class='plain_list'><h4 class='px-1'>Before and after</h4><ul><li>Preparation: Collecting and discussing case studies, preparing initiatives for the hackathon, Pre-event introductions and networking</li> <li>During the event: Rigorous documentation, definition of a list of follow up action points with clear allocation of roles and responsibilities, open participatory budgeting for the activities.</li> <li>Follow up: Rapid deployment of the actions (1 week cycles), followed by open participatory evaluation and codesign of next cycle based on lessons learned.</li></ul></div>"
+        ],
+        "layout": "horizontal"
+      }
+    },
+    {
+      "type": "events",
+      "title": "Events",
+      "style": {
+        "title": "70%",
+        "wrapper": {
+          "desktop": "80%",
+          "mobile": "100%"
+        },
+        "container": {
+           "padding": ["20px 0 30px"]
+        }
+      },
+      "id": "events",
+      "tag": "covid19-event",
+      "confirm": false,
+      "filters": {
+        "webinar": "#5C6BC1",
+        "discussion": "#2EA48A",
+        "brainstorm": "#DF6D00"
+      }
+    },
+    {
+      "type": "custom_form",
+      "title": "How to Join",
+      "id": "join",
+      "style": {
+        "title": {
+          "width": ["100%", "75%"],
+          "size": ["text-3xl", "text-3xl"]
+        },
+        "paragraph": {
+          "class": ["text-xl", "font-bold"]
+        },
+        "container": {
+          "padding": ["0px 20px"]
+        },
+        "wrapper": {
+          "padding": ["0"]
+        }
+      },
+      "settings": {
+        "createTopic": true,
+        "categoryId": 349,
+        "airtable": {
+          "base": "appVGanp2p2N4vuVP",
+          "table": "Submissions"
+        }
+      },
+      "content": "<p>Joining is easy and free, simply complete this form and you'll be registered.</p>",
+      "fields": [
+        {
+          "title": "Your Name",
+          "id": "name",
+          "type": "text",
+          "placeholder": "enter your name",
+          "required": true
+        },
+        {
+          "title": "Your Email",
+          "id": "email",
+          "type": "text",
+          "placeholder": "enter your email",
+          "required": true
+        },
+        {
+          "title": "How can you help with the summit?",
+          "id": "proposal",
+          "type": "textarea",
+          "placeholder": "examples include setting up session, doing documentation or helping promote it",
+          "required": true
+        },
+        {
+          "id": "create_account",
+          "title": "Registering will create an account on Edgeryders for you.",
+          "subtitle": "This will be how we stay in contact and coordinate for the summit. Do you agree?",
+          "type": "create_account",
+          "required": true
+        }
+      ],
+      "success": {
+        "title": "Your form has been sent, thanks for registering!",
+        "text": "Check your inbox for a confirmation email with your account details."
+      }
+    },
+    {
+      "type": "terms"
+    }
+  ]
+}
