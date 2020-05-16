@@ -1,29 +1,13 @@
 # vuepress-doc
 
-## Project setup
-```
-npm install
-```
+Documentation for Edgeryders Webkit.
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+"npm run docs:dev"
 ```
 
 ### Compiles and minifies for production
 ```
-npm run build
+"npm run docs:build"
 ```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
