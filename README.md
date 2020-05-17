@@ -1,6 +1,6 @@
 # Webkit Guide
 
-Documentation for Edgeryders Webkit.
+Documentation for Edgeryders Webkit using Vuepress.
 
 ### Compiles and hot-reloads for development
 ```
